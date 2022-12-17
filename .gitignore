@@ -12,10 +12,12 @@ rerun.txt
 pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/src/log/*
+/src/tmp/*
+!src/log/.keep
+!src/tmp/.keep
+
+/tmp/
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
